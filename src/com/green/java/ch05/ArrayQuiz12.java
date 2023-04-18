@@ -18,7 +18,7 @@ public class ArrayQuiz12 {
         for (int i = 0; i < numArr.length; i++) {
 
             int a = (int) (Math.random() * numArr.length);
-
+                                    //내가 곱한 값에 -1 까지가 최대
             temp = numArr[a];
             numArr[a] = numArr[i];
             numArr[i] = temp;

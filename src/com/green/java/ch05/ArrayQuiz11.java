@@ -9,7 +9,7 @@ public class ArrayQuiz11 {
     public static void main(String[] args) {
         // 입력과 출력을 합치면 안된다.
 
-        int[] numArr = {11, 14, 2, 7, 36, 35};
+        int[] numArr = {11, 14, 2, 7, 36, 35, 10000};
         int sum = 0;
 
         for (int i = 0; i < numArr.length; i++) {
@@ -17,9 +17,10 @@ public class ArrayQuiz11 {
         }
 
         double avg = (double) sum / numArr.length;
-        System.out.println("sum: " + sum);
-        System.out.printf("avg: %.2f\n", avg);
 
+
+        System.out.printf("sum: %,d avg: %.2f\n",sum ,avg);
+        //1000단위 , 넣고 싶을 때 %,d 하면 찍힌다
     }
 }
 

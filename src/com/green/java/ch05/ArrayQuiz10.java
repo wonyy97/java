@@ -16,7 +16,7 @@ public class ArrayQuiz10 {
         int min = numArr[0];
 
         for (int i = 1; i < numArr.length; i++) {
-            if (min > numArr[i]) {
+            if (min > numArr[i]) {      //max 는 <
                 min = numArr[i];
             }
         }

@@ -13,8 +13,5 @@ public class PrintfEx1 {
         System.out.printf("finger=[%5d] \n", finger);
         System.out.printf("finger=[%-5d] \n", finger);
         System.out.printf("finger=[%05d] \n", finger);
-
-
-
     }
 }
