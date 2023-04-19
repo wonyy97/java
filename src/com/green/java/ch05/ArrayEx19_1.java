@@ -13,6 +13,7 @@ package com.green.java.ch05;
     수학: 170
 
  */
+//수정이 굉장히 용이 하다.
 public class ArrayEx19_1 {
     public static void main(String[] args) {
         String[] titles = { "국어", "영어", "수학", "사회" };
@@ -47,12 +48,5 @@ public class ArrayEx19_1 {
         for(int i=0; i<titles.length; i++) {
             System.out.printf("%s: %d\n", titles[i], titleSumArr[i]);
         }
-
-
-        String str = "ab2d43";
-        char[] charArr = str.toCharArray();
-        System.out.printf("%c", charArr[1]);
-
-
     }
 }

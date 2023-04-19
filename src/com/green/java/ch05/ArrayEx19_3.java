@@ -32,7 +32,7 @@ public class ArrayEx19_3 {
         for (int i = 0; i < score.length; i++) {
             int[] eachscore = score[i];
             int sum = 0;
-            System.out.printf("%3d\t",i+1);
+            System.out.printf("%d\t",i+1);
             for (int j = 0; j < eachscore.length; j++) {
                 int jumsu = eachscore[j];
                 //int jumsu = score[i][j];
