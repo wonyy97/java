@@ -8,6 +8,7 @@ public class FlowEx13Method {
         printAllSum(1,100);
     }
 
+    //static 사용하면 바로 이름 호출 가능
     public static void printAllSum(int min, int max) {
         int sum = 0;
         for (int i = min; i <= max; i++) {

@@ -2,7 +2,7 @@ package com.green.java.ch06;
 
 public class TvTest2 {
     public static void main(String[] args) {
-        Tv2 tv = new Tv2();
+        Tv2 tv = new Tv2(); //Tv2클래스 객체화 했다.
 
         for (int i = 0; i < 10; i++) {
             tv.channelUp();
