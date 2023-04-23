@@ -9,8 +9,8 @@ public class NumberBaseballGame {
         return (int) (Math.random() * max - min + 1) + min;
     }
 
-    static int[] getRandomNumberArr(int numberCount) {
-        int[] arr = new int[numberCount];
+    static int[] getRandomNumberArr(int numberCount) { //정수크기만큼
+        int[] arr = new int[numberCount];           //배열을 만듦
 
         int selectedIdx = 0;
         Loop:
@@ -50,9 +50,9 @@ public class NumberBaseballGame {
             int s = 0, b = 0, o = 0 ;
 
             for (int i = 0; i < NUMBER_COUNT; i++) {
-                for (int j = 0; j < NUMBER_COUNT; j++) {
-                    if (numArr[i] == myArr[j]) {
-                        if (i == j) {
+                for (int z = 0; z < NUMBER_COUNT; z++) {
+                    if (numArr[i] == myArr[z]) {
+                        if (i == z) {
                             s++;
                         } else {
                             b++;

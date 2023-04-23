@@ -8,8 +8,9 @@ public class FlowEx18Method {
         System.out.println("============================================");
         gugudanchart(2);
         System.out.println("============================================");
-        gugudan(2,8);
 
+       //aruments 아규먼츠, 인수값
+        gugudan(2,8);
 
     }
 
@@ -40,7 +41,7 @@ public class FlowEx18Method {
     }
 
 
-    public static void gugudan(int sDan, int eDan) {
+    public static void gugudan(int sDan, int eDan) { //인자, 파라미터, 매개변수
         for (int i = sDan; i <= eDan; i++) {
             gugudan(i);
 
@@ -48,7 +49,7 @@ public class FlowEx18Method {
         }
     }
 
-
+        //오버로딩  메소드를 여러개 만들수 있는 기법
 }
 
 

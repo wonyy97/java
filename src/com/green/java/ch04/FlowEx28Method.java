@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class FlowEx28Method {
 
-    public static int getRandomNumber(int n1, int n2) {
+    public static int getRandomNumber(int min, int max) {
 
-        int answer = (int)(Math.random()*(n2-n1+1))+n1;
+        int answer = (int)(Math.random()*(max-min+1))+min;
 
         return answer;
     }
