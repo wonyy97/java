@@ -13,6 +13,9 @@ public class CardTest {
             cd.pick();
         }
 
+        cd.pick();
+
+
         System.out.println("========================================");
         cd.openCards();
 

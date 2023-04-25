@@ -15,6 +15,7 @@ public class Card {
     }
 
     public Card(String kind, String num) {
+        super();
         this.kind = kind;
         this.num = num;
 
