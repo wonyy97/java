@@ -1,9 +1,9 @@
 package com.green.java.ch07;
 
 public class Child extends Parent { //단일 상속만 가능
-    //public Child() {}
+    public Child() {}
+
     int age;
-    public Child(){}
 
     public Child(int age) {
         super();//자동 생략

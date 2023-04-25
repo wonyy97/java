@@ -7,7 +7,7 @@ public class Bike {
     //내가 추가 해야한다.
     //객체를 생성함과 동시에 초기화 하고 싶을때 생성자를 사용한다.
 
-    String brand;
+    String brand;  //멤버필드
     String model;
     int price;
 
@@ -17,7 +17,7 @@ public class Bike {
     }
 
 
-    public Bike(String brand,String model,int price) {
+    public Bike(String brand,String model,int price) { //생성자
         this.brand = brand;
         this.model = model;
         this.price = price;
@@ -41,7 +41,7 @@ public class Bike {
 //        //b2.brand
     }
 
-    void drive() {
+    void drive() { //메소드
         System.out.printf("%s브랜드 %s모델이 달린다.", brand, model);
     }
 }

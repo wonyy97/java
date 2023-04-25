@@ -1,9 +1,11 @@
 package com.green.java.ch06;
 
+import java.io.PrintStream;
+
 public class MyMethodTest {
     public static void main(String[] args) {
         MyMethod mm = new MyMethod();
-        mm.sum(10, 20);
+        mm.sum(10, 20);  //void메소드
         mm.sum(10, 22);
         mm.sum(10, 223);
         mm.sum(10, 245);
@@ -14,8 +16,8 @@ public class MyMethodTest {
         int result = mm.sum2(10, 245);
         System.out.println("result : " + result);
 
-//        PrintSream ps = System.out;
-//        ps.println("result : " + result);
+        PrintStream ps = System.out; // ps는 PrintSream객체 주소값만 담을수 있다.
+        ps.println("result : " + result);
 
 
     }
