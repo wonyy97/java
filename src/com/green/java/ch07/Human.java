@@ -1,6 +1,6 @@
 package com.green.java.ch07;
 
-public class Human {
+public class Human { //멤버필드는 무조건 private, 하지만 상수는 public 줘도됨
     private String name;
     private int age;
     private String job;
@@ -15,7 +15,7 @@ public class Human {
         this.job = job;
     }
 
-
+//getter로 값 추출 하기
 //    public String getName() {
 //        return name;  //this. 은 생략가능
 //    }

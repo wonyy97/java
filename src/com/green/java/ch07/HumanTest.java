@@ -8,6 +8,8 @@ package com.green.java.ch07;
 
     <값 추출>
     1. getter 메소드를 통해서 추출
+
+    값을 넣는 이유는 나중에 추출하기 위해서 이다
 */
 public class HumanTest {
     public static void main(String[] args) {

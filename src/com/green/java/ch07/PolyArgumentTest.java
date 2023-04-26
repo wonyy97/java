@@ -24,7 +24,7 @@ class Buyer {
 
     public void buy(Product p1) {
         money -= p1.getPrice();
-        this.bonusPoint += p1.getBonusPoint();
+        bonusPoint += p1.getBonusPoint();
         System.out.printf("%s을(를) %d만원에 구매하였습니다.  \n", p1, p1.getPrice());
     }
 
