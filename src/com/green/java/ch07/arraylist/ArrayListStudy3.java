@@ -18,6 +18,7 @@ public class ArrayListStudy3 {
         System.out.println("removeValue : " + removeValue);
 
         System.out.println(list);
-
+        System.out.println(list.size()); //배열.length랑 비슷한 것, 배열갯수를 알려준다.
+        //리턴타입 int
     }
 }

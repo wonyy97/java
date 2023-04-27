@@ -29,7 +29,7 @@ class Buyer3 {
         printState();
     }
 
-    public void buy(Product3 p) {
+    public void buy(Product3 p) {  //로컬변수는 사용되고 죽는다
 
 //for문 써서 만들어볼까
 //        for (int i = 0; i < items.length; i++) {
@@ -47,13 +47,13 @@ class Buyer3 {
 
     public void summary() {
         System.out.print("구입하신 제품은");
-//        if (idx > 0) {
-//            System.out.printf(" %s", items[0]);
-//            for (int i = 0; i < idx; i++) {
-//                System.out.printf(", %s", items[i]);
-//            }
-//            System.out.printf(" 총 %,d개 입니다.", idx);
-//        }
+        if (idx > 0) {
+            System.out.printf(" %s", items[0]);
+            for (int i = 1; i < idx; i++) {
+                System.out.printf(", %s", items[i]);
+            }
+            System.out.printf(" 총 %,d개 입니다.", idx);
+        }
 
 
 //        for (int i = 0; i < idx; i++) {
