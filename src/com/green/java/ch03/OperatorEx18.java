@@ -9,7 +9,7 @@ public class OperatorEx18 {
 
         System.out.println(Math.round(315.4));  //반올림  315
         System.out.println(Math.round(315.5));  //       316
-        System.out.println(Math.ceil(315.1));   //올림    316 소수점 뒷자리에 값이 조금이라도 있으면 올려버림
-        System.out.println(Math.floor(315.9));  //내림    315              값이 있든없든 내려버림
+        System.out.println(Math.ceil(315.1));   //올림    316.0 소수점 뒷자리에 값이 조금이라도 있으면 올려버림
+        System.out.println(Math.floor(315.9));  //내림    315.0              값이 있든없든 내려버림
     }
 }

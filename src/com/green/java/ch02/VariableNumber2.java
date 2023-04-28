@@ -9,7 +9,10 @@ public class VariableNumber2 {
 
         int i1 = 129;
         int i2 = (int)b1; //자동형변환
-        b1 = (byte)i1;   //강제형변환  /오버플로우 조심  int값을 byte값으로 형변환이 되지 않기 떄문에 강제로 형변환 시킨다
+
+        if (i1 < Byte.MAX_VALUE && i1 >= Byte.MIN_VALUE){
+            b1 = (byte)i1;   //강제형변환  /오버플로우 조심  int값을 byte값으로 형변환이 되지 않기 떄문에 강제로 형변환 시킨다
+        }
         System.out.println(b1);
 
         b1 = (byte)-129;   //강제형변환  /언더플로우 조심
