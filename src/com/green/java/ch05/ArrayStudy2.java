@@ -11,12 +11,13 @@ public class ArrayStudy2 {
         boolean[] boolArr = new boolean[4];     //boolean 디폴트값 = false
         for (int i = 0; i < boolArr.length; i++) {
             System.out.println(boolArr[i]);
-
-            String[] strArr = new String[3];   //대문자로 시작하는 이름은 디폴트값 = null
-            for (int s = 0; s < strArr.length; s++) {
-                System.out.println(strArr[s]);
-            }
         }
+
+        String[] strArr = new String[3];   //대문자로 시작하는 이름은 디폴트값 = null
+        for (int s = 0; s < strArr.length; s++) {
+            System.out.println(strArr[s]);
+        }
+
     }
 }
 

@@ -1,9 +1,4 @@
 package com.green.java.ch05;
-/*
-    numArr 배열을 이용하여
-    배열에 들어있는 평균값 구해주세요
-    avg:
- */
 
 import java.util.Arrays;
 

@@ -7,24 +7,13 @@ public class ArrayEx12 {
         for (int i = 0; i < names.length; i++) {
             System.out.printf("names[%d]: %s\n", i, names[i]);
         }
-//        String temp = names[2];
-//        System.out.printf("temp : %s", temp);
+
         names[0] = "Yu";
         for(String nm : names) {
             System.out.println(nm);
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 /*        for (int i = 0; i < names.length; i++) {
             System.out.println("names[" + i + "]:" + names[i]);

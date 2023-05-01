@@ -1,8 +1,4 @@
 package com.green.java.ch05;
-/*
-    numArr 배열을 이용하여
-    copyArr에 numArr을 deep copy 해주세요
- */
 
 import java.util.Arrays;
 

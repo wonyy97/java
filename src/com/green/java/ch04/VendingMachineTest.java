@@ -8,6 +8,11 @@ public class VendingMachineTest {
         vm.insert(10000);
         vm.insert(10000);
 
+        vm.showMenus();
+        vm.purchaseDrink(1);
+        vm.purchaseDrink(1);
+
+        vm.showPurchaseList();
         vm.showMoney();
     }
 }
