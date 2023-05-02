@@ -12,8 +12,8 @@ public class MyMathTest {
         // 이용해서 n1, n2값을 더한 결과를 콘솔에 출력
 
 
-        sum = MyMathStatic.sum(n1, n2);  //인스턴스 멤버필드를 사용하는 메소드는 static사용 금지
-        System.out.printf("%d + %d = %d\n", n1, n2, sum);
+        int r2 = MyMathStatic.sum(n1, n2);  //인스턴스 멤버필드를 사용하는 메소드는 static사용 금지
+        System.out.println(r2);
 
 
         // MyMathStatic 클래스에 있는 sum메소드

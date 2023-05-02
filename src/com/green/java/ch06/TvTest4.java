@@ -5,7 +5,7 @@ public class TvTest4 {
         Tv[] tvArr = new Tv[3];
 
         for (int i = 0; i < tvArr.length; i++) {
-//            Tv tv = new Tv();
+
 //            tvArr[i] = tv;
 //            tv.channel = 10 + i;
             tvArr[i] = new Tv();

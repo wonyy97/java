@@ -2,7 +2,7 @@ package com.green.java.ch05;
 //p.214
 public class MultiArrayStudy1 {
     public static void main(String[] args) {
-                               //행  열
+        //행  열
         int[][] temp = {
                 {0, 0, 0},
                 {0, 0, 0, 0},

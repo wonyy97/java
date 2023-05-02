@@ -15,9 +15,16 @@ public class MyMethodTest {
 
         int result = mm.sum2(10, 245);
         System.out.println("result : " + result);
+//        System.out.println("result : " + result).; println이 리턴타입. 리턴받아오는게 레퍼런스타입이라서 . 사용가능
 
         PrintStream ps = System.out; // ps는 PrintSream객체 주소값만 담을수 있다.
         ps.println("result : " + result);
+
+
+        String str = "   a_b_나_는_원_해_점심    ";
+         String r1 = str.trim().replace("_","*").toUpperCase(); //체이닝 기법
+        System.out.println(r1);
+
 
 
     }

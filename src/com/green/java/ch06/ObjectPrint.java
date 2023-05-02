@@ -5,13 +5,17 @@ package com.green.java.ch06;public class ObjectPrint {
 
         ValueBox vb = new ValueBox();
         vb.num = 12;
-        System.out.println(vb);
+        System.out.println(vb + "안녕");
+        //String을 만나면 vb.toString()을 호출한다.
+        //int값을 받을려면 오버라이딩 해야함
 
     }
 }
 
 class ValueBox {
     int num;
-
-
+    @Override
+    public String toString () {
+        return String.valueOf(num);
+    }
 }

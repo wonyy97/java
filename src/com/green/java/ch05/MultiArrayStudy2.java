@@ -6,12 +6,23 @@ public class MultiArrayStudy2 {
         //행  열
         int[][] mArr = new int[4][3];
 
+//        for (int i = 0; i < mArr.length; i++) {
+//            for (int z = 0; z < mArr[i].length; z++) {
+//
+//                mArr[i][z] = i * mArr[i].length + z + 1;
+//            }
+//        }
+
+        //쉽게 작성
+        int num = 1;
         for (int i = 0; i < mArr.length; i++) {
             for (int z = 0; z < mArr[i].length; z++) {
 
-                mArr[i][z] = i * mArr[i].length + z + 1;
+                mArr[i][z] = num++;
             }
         }
+
+
 
         for (int i = 0; i < mArr.length; i++) {
             System.out.printf("{ %d",mArr[i][0]);

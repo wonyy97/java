@@ -31,10 +31,11 @@ class Tv2 {
         power = !power;
     }  //플래그, 스위치
 
-    void channelUp() {
-        if (channel < MAX_CHANNEL) {  //5 같이 지정되는것을 매직넘버라고 함
-            ++channel;
+    void channelUp() {  //5는 최대 채널값 입니다.
+        if (channel == MAX_CHANNEL) {  //5 같이 지정되는것을 매직넘버라고 함
+            return;
         }
+        ++channel;
     }
 
     void channelDown() {

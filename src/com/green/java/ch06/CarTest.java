@@ -18,7 +18,7 @@ public class CarTest {
         c2.model = "엔초페라리";
         c2.price = 40_000;
 
-        Car.brand = "현대";
+        Car.brand = "현대"; //static은 이렇게 사용해야한다.
         //클래스명.멤버필드
 
         c1.printInfo();

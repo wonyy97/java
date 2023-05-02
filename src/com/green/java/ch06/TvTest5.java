@@ -23,7 +23,7 @@ public class TvTest5 {
 
         System.out.println("tv1.color = " + tv1.brand);
         System.out.println("tv2.color = " + tv2.brand);
-        System.out.println("Tv.color = " + Tv.brand);
+        System.out.println("Tv.color = " + Tv.brand); //이렇게 써야한다.
         System.out.println("TvTest5.color = " + TvTest5.brand);
 
     }

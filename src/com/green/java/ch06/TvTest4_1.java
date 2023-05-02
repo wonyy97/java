@@ -11,7 +11,7 @@ public class TvTest4_1 {
 
         }
 
-        tvArr[0].channel = 1;
+        tv.channel = 1;
 
         System.out.println(tvArr[0].channel);
         System.out.println(tvArr[1].channel);

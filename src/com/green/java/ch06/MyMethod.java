@@ -7,9 +7,9 @@ public class MyMethod {
     // aruments 아규먼츠, 인수
 
 //  (        선언부         )
-    void sum(int n1, int n2) {  //void는 리턴이 자동으로 생김
+    void sum(int n1, int n2) {
         if(n1 == 20) {  //{ 구현부 }
-            return;
+//            return; void는 리턴이 자동으로 생김
         }
         System.out.println(n1 + n2);
         return; //메소드 종료
