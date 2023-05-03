@@ -15,31 +15,6 @@ public class Human { //멤버필드는 무조건 private, 하지만 상수는 pu
         this.job = job;
     }
 
-//getter로 값 추출 하기
-//    public String getName() {
-//        return name;  //this. 은 생략가능
-//    }
-//
-//    public int getAge() {
-//        return age;
-//    }
-//
-//    public String getJob() {
-//        return job;
-//    }
-
-//    public void setName(String name) {
-//        this.name = name; //멤버필드를 지칭하고 싶다 하면 this. 쓰면 된다.
-//    }
-//
-//    public void setAge(int age) {
-//        this.age = age;
-//    }
-//
-//    public void setJob(String job) {
-//        this.job = job;
-//    }
-
 
     public void setName(String name) {
         this.name = name;
@@ -64,4 +39,30 @@ public class Human { //멤버필드는 무조건 private, 하지만 상수는 pu
     public String getJob() {
         return job;
     }
+
+//    getter로 값 추출 하기
+//    public String getName() {
+//        return name;  //this. 은 생략가능
+//    }
+//
+//    public int getAge() {
+//        return age;
+//    }
+//
+//    public String getJob() {
+//        return job;
+//    }
+
+//    public void setName(String name) {
+//        this.name = name; //멤버필드를 지칭하고 싶다 하면 this. 쓰면 된다.
+//    }
+//
+//    public void setAge(int age) {
+//        this.age = age;
+//    }
+//
+//    public void setJob(String job) {
+//        this.job = job;
+//    }
+
 }

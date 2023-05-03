@@ -5,14 +5,14 @@ public class VarargsTest {
         sum(1);
         sum(1, 2);
         sum(1, 2, 3);
-        sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);//가변인수
+        sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
         int[] arr = {1, 2, 3}; //배열을 보내줘도된다.
         sum(arr);
     }
 
 
-    static void sum(int... nums) {//가변인자
+    static void sum(int... nums) {  //가변인자
         int sum = 0;
 
 //        for (int i = 0; i < nums.length; i++) {

@@ -30,5 +30,5 @@ class Child2 extends Parent2 {
     void method() {
         System.out.println("Child Method");
     }
-    //부모가 가진 메소드 똑같이 들고온것 오버라이딩
+    //부모가 가진 메소드 똑같이 들고온것(재정의) 오버라이딩
 }

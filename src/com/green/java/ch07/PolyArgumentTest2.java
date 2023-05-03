@@ -31,7 +31,7 @@ class Buyer3 {
 
     public void buy(Product3 p) {  //로컬변수는 사용되고 죽는다
 
-//for문 써서 만들어볼까
+//      for문 써서 만들어볼까
 //        for (int i = 0; i < items.length; i++) {
 //            if (items[i] == null){
 //                items[i] = p;
