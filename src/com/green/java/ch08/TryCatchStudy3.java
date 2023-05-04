@@ -14,11 +14,14 @@ public class TryCatchStudy3 {
             if (r % 2 == 0) {
                 return 100;
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (ArithmeticException | NumberFormatException e2) {
+
+        } catch (Exception e2) {
+            e2.printStackTrace();
         } finally { //무조건 실행 보장
             System.out.println("파이널리");
         }
+        System.out.println("끝!!");
         return r;
     }
 }

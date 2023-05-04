@@ -13,6 +13,7 @@ public class TryCatchStudy1 {
             //예외가 발생 되었을 때 하고싶은 작업(로직) 위치
         } finally {
             //옵션, 예외가 발생이 되든 안되든 무조건 실행하고 싶은 로직 위치
+            //~~실행보장~~
             System.out.println("finally");
         }
         System.out.println("끝!");
