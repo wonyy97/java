@@ -1,5 +1,7 @@
 package com.green.java.blackjack;
 
+import java.util.Scanner;
+
 public class BlackjackTest {
     public static void main(String[] args) {
         CardDeck cd = new CardDeck();
@@ -7,32 +9,37 @@ public class BlackjackTest {
         Dealer dealer = new Dealer();
         Rule rule = new Rule();
 
+        for (int i = 0; i < 2; i++) {
+            gamer.receiveCard(cd.getCard());
+            dealer.receiveCard(cd.getCard());
+        }
 
-//        Card c = cd.getCard();
-//        gamer.receiveCard(c);
-        gamer.receiveCard(cd.getCard());
-        gamer.receiveCard(cd.getCard());
+        if (dealer.isReceiveCard()) {
+            dealer.receiveCard(cd.getCard());
+        }
 
-        dealer.receiveCard(cd.getCard());
-        dealer.receiveCard(cd.getCard());
+        gamer.showCards();
 
-        int gamerScore = rule.getScore(gamer.openCards());
-        int dealerScore = rule.getScore(dealer.openCards());
-        System.out.println(gamerScore);
-        System.out.println(dealerScore);
+        Scanner scan = new Scanner(System.in);
 
+        while (true) {
 
+            System.out.println("Card More? (y / n) >");
+            String temp = scan.nextLine().toLowerCase().trim();
 
-//        cd.showSize();
+            if("n".equals((temp.toLowerCase().trim()))) { break ;}
+            gamer.receiveCard(cd.getCard());
+            gamer.showCards();
 
-//        Card c = cd.getCard();
-//        System.out.print(c.getPattern());
-//        System.out.println(c.getDenomination());
-//        cd.showSize();
-//
-//        Card c2 = cd.getCard();
-//        System.out.print(c.getPattern());
-//        System.out.println(c2.getDenomination());
-//        cd.showSize();
+//            if (temp.equals("y")) {
+//                gamer.receiveCard(cd.getCard());
+//            } else {
+//                break;
+//            }q
+        }
+
+        System.out.println("======   딜러 카드    =======");
+        dealer.showCards();
+        Rule.whoIsWin(gamer, dealer);
     }
 }

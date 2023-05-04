@@ -5,7 +5,6 @@ public class Card {
     private String denomination;  //점수
 
 
-
     public Card(String pattern, String denomination) {
         this.pattern = pattern;
         this.denomination = denomination;
@@ -20,4 +19,10 @@ public class Card {
         return denomination;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Card { %s, %s }", pattern,denomination);
+//        return "Card{" + pattern + "," + denomination + "}";
+//        return "Card{" + getPattern() + "," + getDenomination() + "}";
+    }
 }

@@ -21,6 +21,7 @@ public class CardDeck {
 //        return cardList.remove(random);
         int random = (int)(Math.random() * cardList.size());
         return cardList.remove(random);
+
     }
 
     public CardDeck() {
